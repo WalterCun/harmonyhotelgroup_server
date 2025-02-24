@@ -1,54 +1,70 @@
-# [Django Rocket](https://app-generator.dev/product/rocket/django/)
+# HarmonyHotel Service
 
-Open-source **[Django Template styled with Tailwind CSS and Flowbite](https://app-generator.dev/product/rocket/django/)**.The product is designed to deliver the best possible developer experience with highly customizable feature-rich pages. 
+## Descripción
+HarmonyHotel Service es un backend desarrollado en Django que proporciona una API REST para gestionar hoteles, incluyendo información sobre ubicaciones, descripciones y calificaciones.
 
-A common set of features is provided out-of-the-box: **API, DataTables, Charts, Extended User Model, and Docker Support** under a permissive MIT License (**unrestricted usage in hobby or commercial projects**).
+## Estructura del Proyecto
+```
+HarmonyHotel_Service/
+│── api/                    # Aplicación principal
+│   ├── migrations/         # Migraciones de la base de datos
+│   ├── __init__.py
+│   ├── admin.py            # Configuración del panel de administración
+│   ├── apps.py             # Configuración de la app
+│   ├── models.py           # Modelos de la base de datos
+│   ├── serializers.py      # Serialización de datos (DRF)
+│   ├── tests.py            # Pruebas unitarias
+│   ├── urls.py             # Rutas específicas de la app
+│   ├── views.py            # Controladores de la API
+│── harmonyhotel_service/    # Configuración del proyecto
+│   ├── __init__.py
+│   ├── asgi.py             # Configuración ASGI (Para WebSockets y más)
+│   ├── settings.py         # Configuración global del proyecto
+│   ├── urls.py             # Rutas globales del proyecto
+│   ├── wsgi.py             # Configuración WSGI (Para producción)
+│── manage.py               # Archivo para ejecutar comandos de Django
+│── requirements.txt        # Dependencias del proyecto
+```
 
-- 👉 [Django Rocket](https://app-generator.dev/product/rocket/django/) - `Product Page`
-- 👉 [Django Rocket](https://rocket-django.onrender.com) - `LIVE Demo` 
-- 👉 [Django Rocket Documentation](https://app-generator.dev/docs/products/django/rocket/index.html) - `Complete Information` and Support Links
-  - [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) - a `comprehensive tutorial`
-  - `Configuration`: Install Tailwind/Flowbite, Prepare Environment, Setting up the Database 
-  - `Start with Docker`
-  - `Manual Build`
-  - `Start the project`
-  - `Deploy on Render`
+## Instalación
+### 1. Crear el entorno virtual
+```sh
+uv venv django_env
+uv pip install -r requirements.txt
+```
 
-<br />
+### 2. Aplicar las migraciones de la base de datos
+```sh
+python manage.py migrate
+```
 
-## Features
+### 3. Crear un superusuario (opcional, para administrar el panel de Django)
+```sh
+python manage.py createsuperuser
+```
 
-- Styling: **Tailwind CSS/Flowbite**
-- **Extended User Model**
-- [Charts](https://rocket-django.onrender.com/charts/) via ApexJS
-- [DataTables](https://rocket-django.onrender.com/tables/) 
-- [API](https://rocket-django.onrender.com/api/product/)
-- Can be used with **SQLite**, **MySql**, **PostgreSQL**, **MsSql**
-- **Docker**
-- **CI/CD Integration** with Render 
+### 4. Ejecutar el servidor
+```sh
+python manage.py runserver
+```
 
-![Django Rocket - Open-Source Django Starter styled with Tailwind](https://github.com/user-attachments/assets/d7527d5e-046c-4679-8f72-525290a5edd5)
+La API estará disponible en `http://127.0.0.1:8000/api/`
 
-<br />
+## Endpoints Principales
+| Método | Endpoint | Descripción |
+|---------|----------|-------------|
+| GET | `/api/hoteles/` | Lista todos los hoteles |
+| POST | `/api/hoteles/` | Crea un nuevo hotel |
+| GET | `/api/hoteles/{id}/` | Obtiene un hotel por su ID |
+| PUT | `/api/hoteles/{id}/` | Actualiza un hotel |
+| DELETE | `/api/hoteles/{id}/` | Elimina un hotel |
 
-## [Rocket PRO Version](https://app-generator.dev/product/rocket-pro/django/)
+## Dependencias
+```
+Django
+djangorestframework
+```
 
-> The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://rocket-django-pro.onrender.com/).
+## Contacto
+Si tienes dudas o sugerencias, contáctanos a soporte@harmonyhotel.com
 
-- **Simple, Easy-to-Extend** Codebase
-- **Rocket** Design
-- Tailwind/Flowbite CSS
-- **OAuth** - Github
-- **Extended User Profile**
-- **API** via DRF 
-- **Charts** via ApexJS 
-- **React Integration** (new) 
-- **Celery** (async tasks)
-- **Deployment-Ready** for Render 
-
-![Django Rocket - The premium version](https://github.com/user-attachments/assets/d60069f3-be43-460f-ba03-0da92276f87c)
-
-<br />
-
----
-**[Django Rocket](https://app-generator.dev/product/rocket/django/)** - Open-Source **Django & Tailwind CSS/Flowbite** Starter provided by [App Generator](https://app-generator.dev)
