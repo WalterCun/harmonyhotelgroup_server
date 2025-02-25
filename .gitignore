@@ -24,7 +24,7 @@ tasks_logs/
 apps/common/management
 apps/helpers
 
-/media/
+#/media/
 #!/media/mapper.json
 #!/media/Sales.csv
 
