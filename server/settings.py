@@ -57,7 +57,8 @@ DEV_APPS = ["debug_toolbar"]
 
 LOCAL_APPS = [
     'apps.api',
-    'apps.core'
+    'apps.core',
+    'apps.commands'
 ]
 
 INSTALLED_APPS = BASE_APPS + THIRD_APPS + LOCAL_APPS
