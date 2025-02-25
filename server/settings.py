@@ -50,12 +50,14 @@ BASE_APPS = ['django.contrib.admin',
 
 THIRD_APPS = ['drf_spectacular',
               'rest_framework',
+              'django_seed'
               ]
 
 DEV_APPS = ["debug_toolbar"]
 
 LOCAL_APPS = [
     'apps.api',
+    'apps.core'
 ]
 
 INSTALLED_APPS = BASE_APPS + THIRD_APPS + LOCAL_APPS
@@ -192,12 +194,12 @@ EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', )
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.TokenAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
-    ],
+    # 'DEFAULT_AUTHENTICATION_CLASSES': [
+    #     'rest_framework.authentication.TokenAuthentication',
+    #     'rest_framework.authentication.SessionAuthentication',
+    # ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny',
     ],
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
