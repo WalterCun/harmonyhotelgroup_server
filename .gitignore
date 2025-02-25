@@ -34,3 +34,5 @@ apps/helpers
 
 apps/core/fixtures/superuser.json
 /.env
+/apps/api/fixtures/locations.json
+/apps/api/fixtures/hoteles.json
