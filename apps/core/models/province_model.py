@@ -5,7 +5,7 @@ from apps.core.models.country_model import Country
 
 class Province(Model):
     name = CharField(max_length=50)
-    flag = ImageField(upload_to='province', blank=True, null=True)
+    flag = ImageField(upload_to='flags', blank=True, null=True)
     is_active = BooleanField(default=True)
     country = ForeignKey(Country, related_name="country_province", on_delete=CASCADE)
     created_at = DateTimeField(auto_now_add=True, blank=True, null=True)
@@ -13,3 +13,7 @@ class Province(Model):
 
     def __str__(self):
         return f'{self.name} ({"Active" if self.is_active else "Desactive"})'
+
+    class Meta:
+        verbose_name = "Province"
+        verbose_name_plural = "Provinces"
