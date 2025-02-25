@@ -12,7 +12,7 @@
     "model": "core.province",
     "pk": 2,
     "fields": {
-      "name": "Bolívar",
+      "name": "BolÃ­var",
       "is_active": true,
       "country": 1
     }
@@ -21,7 +21,7 @@
     "model": "core.province",
     "pk": 3,
     "fields": {
-      "name": "Cañar",
+      "name": "CaÃ±ar",
       "is_active": true,
       "country": 1
     }
@@ -75,7 +75,7 @@
     "model": "core.province",
     "pk": 9,
     "fields": {
-      "name": "Galápagos",
+      "name": "GalÃ¡pagos",
       "is_active": true,
       "country": 1
     }
@@ -111,7 +111,7 @@
     "model": "core.province",
     "pk": 13,
     "fields": {
-      "name": "Los Ríos",
+      "name": "Los RÃ­os",
       "is_active": true,
       "country": 1
     }
@@ -120,7 +120,7 @@
     "model": "core.province",
     "pk": 14,
     "fields": {
-      "name": "Manabí",
+      "name": "ManabÃ­",
       "is_active": true,
       "country": 1
     }
@@ -183,7 +183,7 @@
     "model": "core.province",
     "pk": 21,
     "fields": {
-      "name": "Santo Domingo de los Tsáchilas",
+      "name": "Santo Domingo de los TsÃ¡chilas",
       "is_active": true,
       "country": 1
     }
@@ -192,7 +192,7 @@
     "model": "core.province",
     "pk": 22,
     "fields": {
-      "name": "Sucumbíos",
+      "name": "SucumbÃ­os",
       "is_active": true,
       "country": 1
     }

@@ -1,0 +1,45 @@
+[
+{
+    "model": "api.hotel",
+    "pk": 1,
+    "fields": {
+        "name": "Hotel Ensueños by HHG",
+        "location": 1,
+        "slogan": null,
+        "stars": "4",
+        "description": "Hotel en el centro historico",
+        "is_active": true,
+        "created_at": "2025-02-24T23:43:07.374Z",
+        "updated_at": "2025-02-25T14:44:28.892Z",
+        "services": [
+            1,
+            2,
+            3,
+            4,
+            6
+        ]
+    }
+},
+{
+    "model": "api.hotel",
+    "pk": 2,
+    "fields": {
+        "name": "Hotel Majestic 2 by HHG",
+        "location": 2,
+        "slogan": null,
+        "stars": "3",
+        "description": "",
+        "is_active": true,
+        "created_at": "2025-02-25T00:27:48.245Z",
+        "updated_at": "2025-02-25T00:27:48.245Z",
+        "services": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+}
+]
