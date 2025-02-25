@@ -1,4 +1,4 @@
-from django.db.models import Model, CharField, BooleanField, ForeignKey, DateTimeField, CASCADE
+from django.db.models import Model, CharField, BooleanField,  DateTimeField
 
 
 class Country(Model):
