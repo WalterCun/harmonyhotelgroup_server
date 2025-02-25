@@ -5,12 +5,14 @@ from apps.core.models import City, Country, Province
 
 @admin.register(City)
 class CityAdmin(admin.ModelAdmin):
-    pass
+    search_fields = ("name", "province__name", "province__country__name")
+
 
 @admin.register(Province)
 class ProvinceAdmin(admin.ModelAdmin):
-    pass
+    search_fields = ("name", "country__name")
+
 
 @admin.register(Country)
 class CountryAdmin(admin.ModelAdmin):
-    pass
+    search_fields = ["name"]
