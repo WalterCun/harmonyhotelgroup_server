@@ -50,7 +50,7 @@ class Service(Model):
     updated_at = DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f'{self.name} ({self.is_active})'
+        return f'{self.name} ({"Active" if self.is_active else "Desactive"})'
 
     class Meta:
         verbose_name = _("Service")
