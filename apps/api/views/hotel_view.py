@@ -20,7 +20,16 @@ class HotelListView(APIView):
         ciudad = request.query_params.get('ciudad')  # /api/hoteles/?ciudad=Paris
 
         # Base queryset: todos los hoteles
-        queryset = Hotel.objects.all()
+        queryset = Hotel.objects.filter(is_active=True,
+                                        location__is_active=True,
+                                        location__city__is_active=True,
+                                        location__city__province__is_active=True,
+                                        location__city__province__country__is_active=True,
+                                        ).order_by('name')
+
+        # Si no hay resultados y se aplicaron filtros, devolvemos error 404
+        if not queryset.exists():
+            raise NotFound("No se encontraron informacion de hoteles.")
 
         # Filtramos si hay parámetros proporcionados
         if nombre:
@@ -28,12 +37,6 @@ class HotelListView(APIView):
         if ciudad:
             queryset = queryset.filter(city__icontains=ciudad)  # Coincidencia parcial en la ciudad
 
-        # Si no hay resultados y se aplicaron filtros, devolvemos error 404
-        if not queryset.exists():
-            raise NotFound("No se encontraron informacion de hoteles.")
-
         # Serializamos los resultados y los devolvemos
         serializer = self.serializer_class(queryset, many=True)  # Usamos serializer_class
         return Response(serializer.data)
-
-
