@@ -10,7 +10,8 @@ env
 env_linux
 
 #src
-#*.sqlite*
+*.sqlite*
+*.db*
 
 #.env
 node_modules
@@ -29,7 +30,7 @@ apps/helpers
 
 # de projectos
 /uv.lock
-/hhg.db
 /.venv
 
 apps/core/fixtures/superuser.json
+/.env
