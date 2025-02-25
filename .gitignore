@@ -23,9 +23,13 @@ tasks_logs/
 apps/common/management
 apps/helpers
 
-#/media/
-!/media/mapper.json
-!/media/Sales.csv
+/media/
+#!/media/mapper.json
+#!/media/Sales.csv
+
+# de projectos
 /uv.lock
 /hhg.db
 /.env
+
+apps/core/fixtures/superuser.json
