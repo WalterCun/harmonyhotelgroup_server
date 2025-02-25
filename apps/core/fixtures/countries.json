@@ -1,0 +1,10 @@
+[
+  {
+    "model": "core.country",
+    "pk": 1,
+    "fields": {
+      "name": "Ecuador",
+      "is_active": true
+    }
+  }
+]

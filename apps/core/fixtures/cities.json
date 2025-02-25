@@ -1,0 +1,1738 @@
+[
+  {
+    "model": "core.city",
+    "pk": 1,
+    "fields": {
+      "name": "Cuenca",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 2,
+    "fields": {
+      "name": "Girón",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 3,
+    "fields": {
+      "name": "Gualaceo",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 4,
+    "fields": {
+      "name": "Nabón",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 5,
+    "fields": {
+      "name": "Paute",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 6,
+    "fields": {
+      "name": "Pucará",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 7,
+    "fields": {
+      "name": "San Fernando",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 8,
+    "fields": {
+      "name": "Santa Isabel",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 9,
+    "fields": {
+      "name": "Sevilla de Oro",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 10,
+    "fields": {
+      "name": "Sígsig",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 11,
+    "fields": {
+      "name": "Oña",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 12,
+    "fields": {
+      "name": "Chordeleg",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 13,
+    "fields": {
+      "name": "El Pan",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 14,
+    "fields": {
+      "name": "Guachapala",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 15,
+    "fields": {
+      "name": "Camilo Ponce Enríquez",
+      "province": 1
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 16,
+    "fields": {
+      "name": "Guaranda",
+      "province": 2
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 17,
+    "fields": {
+      "name": "Caluma",
+      "province": 2
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 18,
+    "fields": {
+      "name": "Chillanes",
+      "province": 2
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 19,
+    "fields": {
+      "name": "Chimbo",
+      "province": 2
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 20,
+    "fields": {
+      "name": "Echeandía",
+      "province": 2
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 21,
+    "fields": {
+      "name": "San Miguel",
+      "province": 2
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 22,
+    "fields": {
+      "name": "Las Naves",
+      "province": 2
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 23,
+    "fields": {
+      "name": "Azogues",
+      "province": 3
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 24,
+    "fields": {
+      "name": "Biblián",
+      "province": 3
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 25,
+    "fields": {
+      "name": "Cañar",
+      "province": 3
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 26,
+    "fields": {
+      "name": "Déleg",
+      "province": 3
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 27,
+    "fields": {
+      "name": "La Troncal",
+      "province": 3
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 28,
+    "fields": {
+      "name": "El Tambo",
+      "province": 3
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 29,
+    "fields": {
+      "name": "Suscal",
+      "province": 3
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 30,
+    "fields": {
+      "name": "Tulcán",
+      "province": 4
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 31,
+    "fields": {
+      "name": "Bolívar",
+      "province": 4
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 32,
+    "fields": {
+      "name": "Espejo",
+      "province": 4
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 33,
+    "fields": {
+      "name": "Mira",
+      "province": 4
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 34,
+    "fields": {
+      "name": "Montúfar",
+      "province": 4
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 35,
+    "fields": {
+      "name": "San Pedro de Huaca",
+      "province": 4
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 36,
+    "fields": {
+      "name": "Riobamba",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 37,
+    "fields": {
+      "name": "Alausí",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 38,
+    "fields": {
+      "name": "Chambo",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 39,
+    "fields": {
+      "name": "Chunchi",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 40,
+    "fields": {
+      "name": "Colta",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 41,
+    "fields": {
+      "name": "Cumandá",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 42,
+    "fields": {
+      "name": "Guamote",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 43,
+    "fields": {
+      "name": "Guano",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 44,
+    "fields": {
+      "name": "Pallatanga",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 45,
+    "fields": {
+      "name": "Penipe",
+      "province": 5
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 46,
+    "fields": {
+      "name": "Latacunga",
+      "province": 6
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 47,
+    "fields": {
+      "name": "La Maná",
+      "province": 6
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 48,
+    "fields": {
+      "name": "Pangua",
+      "province": 6
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 49,
+    "fields": {
+      "name": "Pujilí",
+      "province": 6
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 50,
+    "fields": {
+      "name": "Salcedo",
+      "province": 6
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 51,
+    "fields": {
+      "name": "Saquisilí",
+      "province": 6
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 52,
+    "fields": {
+      "name": "Sigchos",
+      "province": 6
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 53,
+    "fields": {
+      "name": "Machala",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 54,
+    "fields": {
+      "name": "Arenillas",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 55,
+    "fields": {
+      "name": "Atahualpa",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 56,
+    "fields": {
+      "name": "Balsas",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 57,
+    "fields": {
+      "name": "Chilla",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 58,
+    "fields": {
+      "name": "El Guabo",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 59,
+    "fields": {
+      "name": "Huaquillas",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 60,
+    "fields": {
+      "name": "Las Lajas",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 61,
+    "fields": {
+      "name": "Marcabelí",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 62,
+    "fields": {
+      "name": "Pasaje",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 63,
+    "fields": {
+      "name": "Piñas",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 64,
+    "fields": {
+      "name": "Portovelo",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 65,
+    "fields": {
+      "name": "Santa Rosa",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 66,
+    "fields": {
+      "name": "Zaruma",
+      "province": 7
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 67,
+    "fields": {
+      "name": "Esmeraldas",
+      "province": 8
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 68,
+    "fields": {
+      "name": "Atacames",
+      "province": 8
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 69,
+    "fields": {
+      "name": "Eloy Alfaro",
+      "province": 8
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 70,
+    "fields": {
+      "name": "La Concordia",
+      "province": 8
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 71,
+    "fields": {
+      "name": "Muisne",
+      "province": 8
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 72,
+    "fields": {
+      "name": " Quinindé",
+      "province": 8
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 73,
+    "fields": {
+      "name": "Rioverde",
+      "province": 8
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 74,
+    "fields": {
+      "name": "San Lorenzo",
+      "province": 8
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 75,
+    "fields": {
+      "name": "Puerto Ayora",
+      "province": 9
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 76,
+    "fields": {
+      "name": "Puerto Baquerizo Moreno",
+      "province": 9
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 77,
+    "fields": {
+      "name": "Puerto Villamil",
+      "province": 9
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 78,
+    "fields": {
+      "name": "Guayaquil",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 79,
+    "fields": {
+      "name": "Alfredo Baquerizo Moreno (Jujan)",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 80,
+    "fields": {
+      "name": "Balao",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 81,
+    "fields": {
+      "name": "Balzar",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 82,
+    "fields": {
+      "name": "Colimes",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 83,
+    "fields": {
+      "name": "Daule",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 84,
+    "fields": {
+      "name": "El Empalme",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 85,
+    "fields": {
+      "name": "El Triunfo",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 86,
+    "fields": {
+      "name": "General Antonio Elizalde (Bucay)",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 87,
+    "fields": {
+      "name": "Isidro Ayora",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 88,
+    "fields": {
+      "name": "Lomas de Sargentillo",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 89,
+    "fields": {
+      "name": "Marcelino Maridueña (San Carlos)",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 90,
+    "fields": {
+      "name": "Milagro",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 91,
+    "fields": {
+      "name": "Naranjal",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 92,
+    "fields": {
+      "name": "Naranjito",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 93,
+    "fields": {
+      "name": "Nobol (Nuestra Señora del Carmen)",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 94,
+    "fields": {
+      "name": "Palestina",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 95,
+    "fields": {
+      "name": "Pedro Carbo",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 96,
+    "fields": {
+      "name": "Playas (General Villamil)",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 97,
+    "fields": {
+      "name": "Salitre (Urbina Jado)",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 98,
+    "fields": {
+      "name": "Samborondón",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 99,
+    "fields": {
+      "name": "Santa Lucía",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 100,
+    "fields": {
+      "name": "Simón Bolívar",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 101,
+    "fields": {
+      "name": "Yaguachi (San Jacinto)",
+      "province": 10
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 102,
+    "fields": {
+      "name": "Ibarra",
+      "province": 11
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 103,
+    "fields": {
+      "name": "Antonio Ante",
+      "province": 11
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 104,
+    "fields": {
+      "name": "Cotacachi",
+      "province": 11
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 105,
+    "fields": {
+      "name": "Otavalo",
+      "province": 11
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 106,
+    "fields": {
+      "name": "Pimampiro",
+      "province": 11
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 107,
+    "fields": {
+      "name": "San Miguel de Urcuquí",
+      "province": 11
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 108,
+    "fields": {
+      "name": "Loja",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 109,
+    "fields": {
+      "name": "Calvas",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 110,
+    "fields": {
+      "name": "Catamayo",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 111,
+    "fields": {
+      "name": "Celica",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 112,
+    "fields": {
+      "name": "Chaguarpamba",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 113,
+    "fields": {
+      "name": "Espíndola",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 114,
+    "fields": {
+      "name": "Gonzanamá",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 115,
+    "fields": {
+      "name": "Macará",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 116,
+    "fields": {
+      "name": "Olmedo",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 117,
+    "fields": {
+      "name": "Paltas",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 118,
+    "fields": {
+      "name": "Puyango",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 119,
+    "fields": {
+      "name": "Quilanga",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 120,
+    "fields": {
+      "name": "Saraguro",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 121,
+    "fields": {
+      "name": "Sozoranga",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 122,
+    "fields": {
+      "name": "Zapotillo",
+      "province": 12
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 123,
+    "fields": {
+      "name": "Babahoyo",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 124,
+    "fields": {
+      "name": "Baba",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 125,
+    "fields": {
+      "name": "Buena Fe",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 126,
+    "fields": {
+      "name": "Mocache",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 127,
+    "fields": {
+      "name": "Montalvo",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 128,
+    "fields": {
+      "name": "Palenque",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 129,
+    "fields": {
+      "name": "Puebloviejo",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 130,
+    "fields": {
+      "name": "Quevedo",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 131,
+    "fields": {
+      "name": "Quinsaloma",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 132,
+    "fields": {
+      "name": "Urdaneta",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 133,
+    "fields": {
+      "name": "Valencia",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 134,
+    "fields": {
+      "name": "Ventanas",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 135,
+    "fields": {
+      "name": "Vinces",
+      "province": 13
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 136,
+    "fields": {
+      "name": "Portoviejo",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 137,
+    "fields": {
+      "name": "Bolívar",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 138,
+    "fields": {
+      "name": "Chone",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 139,
+    "fields": {
+      "name": "El Carmen",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 140,
+    "fields": {
+      "name": "Flavio Alfaro",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 141,
+    "fields": {
+      "name": "Jama",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 142,
+    "fields": {
+      "name": "Jaramijó",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 143,
+    "fields": {
+      "name": "Jipijapa",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 144,
+    "fields": {
+      "name": "Manta",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 145,
+    "fields": {
+      "name": "Montecristi",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 146,
+    "fields": {
+      "name": "Olmedo",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 147,
+    "fields": {
+      "name": "Paján",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 148,
+    "fields": {
+      "name": "Pedernales",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 149,
+    "fields": {
+      "name": "Pichincha",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 150,
+    "fields": {
+      "name": "Puerto López",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 151,
+    "fields": {
+      "name": "Rocafuerte",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 152,
+    "fields": {
+      "name": "San Vicente",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 153,
+    "fields": {
+      "name": "Santa Ana",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 154,
+    "fields": {
+      "name": "Sucre (Bahía de Caráquez)",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 155,
+    "fields": {
+      "name": "Tosagua",
+      "province": 14
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 156,
+    "fields": {
+      "name": "Macas",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 157,
+    "fields": {
+      "name": "Gualaquiza",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 158,
+    "fields": {
+      "name": "Huamboya",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 159,
+    "fields": {
+      "name": "Limón Indanza",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 160,
+    "fields": {
+      "name": "Logroño",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 161,
+    "fields": {
+      "name": "Morona",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 162,
+    "fields": {
+      "name": "Pablo Sexto",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 163,
+    "fields": {
+      "name": "Palora",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 164,
+    "fields": {
+      "name": "San Juan Bosco",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 165,
+    "fields": {
+      "name": "Santiago",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 166,
+    "fields": {
+      "name": "Sucúa",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 167,
+    "fields": {
+      "name": "Taisha",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 168,
+    "fields": {
+      "name": "Tiwintza",
+      "province": 15
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 169,
+    "fields": {
+      "name": "Tena",
+      "province": 16
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 170,
+    "fields": {
+      "name": "Archidona",
+      "province": 16
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 171,
+    "fields": {
+      "name": "El Chaco",
+      "province": 16
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 172,
+    "fields": {
+      "name": "Quijos",
+      "province": 16
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 173,
+    "fields": {
+      "name": "Arosemena Tola",
+      "province": 16
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 174,
+    "fields": {
+      "name": "Coca (Puerto Francisco de Orellana)",
+      "province": 17
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 175,
+    "fields": {
+      "name": "Aguarico",
+      "province": 17
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 176,
+    "fields": {
+      "name": "La Joya de los Sachas",
+      "province": 17
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 177,
+    "fields": {
+      "name": "Loreto",
+      "province": 17
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 178,
+    "fields": {
+      "name": "Puyo",
+      "province": 18
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 179,
+    "fields": {
+      "name": "Arajuno",
+      "province": 18
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 180,
+    "fields": {
+      "name": "Mera",
+      "province": 18
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 181,
+    "fields": {
+      "name": "Santa Clara",
+      "province": 18
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 182,
+    "fields": {
+      "name": "Quito",
+      "province": 19
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 183,
+    "fields": {
+      "name": "Cayambe",
+      "province": 19
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 184,
+    "fields": {
+      "name": "Mejía",
+      "province": 19
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 185,
+    "fields": {
+      "name": "Pedro Moncayo",
+      "province": 19
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 186,
+    "fields": {
+      "name": "Pedro Vicente Maldonado",
+      "province": 19
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 187,
+    "fields": {
+      "name": "Puerto Quito",
+      "province": 19
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 188,
+    "fields": {
+      "name": "Rumiñahui",
+      "province": 19
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 189,
+    "fields": {
+      "name": "Santa Elena",
+      "province": 20
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 190,
+    "fields": {
+      "name": "La Libertad",
+      "province": 20
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 191,
+    "fields": {
+      "name": "Salinas",
+      "province": 20
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 192,
+    "fields": {
+      "name": "Santo Domingo",
+      "province": 21
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 193,
+    "fields": {
+      "name": "Lago Agrio",
+      "province": 22
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 194,
+    "fields": {
+      "name": "Cascales",
+      "province": 22
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 195,
+    "fields": {
+      "name": "Cuyabeno",
+      "province": 22
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 196,
+    "fields": {
+      "name": "Gonzalo Pizarro",
+      "province": 22
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 197,
+    "fields": {
+      "name": "Putumayo",
+      "province": 22
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 198,
+    "fields": {
+      "name": "Shushufindi",
+      "province": 22
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 199,
+    "fields": {
+      "name": "Sucumbíos",
+      "province": 22
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 200,
+    "fields": {
+      "name": "Ambato",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 201,
+    "fields": {
+      "name": "Baños de Agua Santa",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 202,
+    "fields": {
+      "name": "Cevallos",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 203,
+    "fields": {
+      "name": "Mocha",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 204,
+    "fields": {
+      "name": "Patate",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 205,
+    "fields": {
+      "name": "Pelileo",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 206,
+    "fields": {
+      "name": "Píllaro",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 207,
+    "fields": {
+      "name": "Quero",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 208,
+    "fields": {
+      "name": "Tisaleo",
+      "province": 23
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 209,
+    "fields": {
+      "name": "Zamora",
+      "province": 24
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 210,
+    "fields": {
+      "name": "Centinela del Cóndor",
+      "province": 24
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 211,
+    "fields": {
+      "name": "Chinchipe",
+      "province": 24
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 212,
+    "fields": {
+      "name": "El Pangui",
+      "province": 24
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 213,
+    "fields": {
+      "name": "Nangaritza",
+      "province": 24
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 214,
+    "fields": {
+      "name": "Palanda",
+      "province": 24
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 215,
+    "fields": {
+      "name": "Paquisha",
+      "province": 24
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 216,
+    "fields": {
+      "name": "Yacuambi",
+      "province": 24
+    }
+  },
+  {
+    "model": "core.city",
+    "pk": 217,
+    "fields": {
+      "name": "Yantzaza",
+      "province": 24
+    }
+  }
+]

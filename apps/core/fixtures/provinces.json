@@ -1,0 +1,218 @@
+[
+  {
+    "model": "core.province",
+    "pk": 1,
+    "fields": {
+      "name": "Azuay",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 2,
+    "fields": {
+      "name": "Bolívar",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 3,
+    "fields": {
+      "name": "Cañar",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 4,
+    "fields": {
+      "name": "Carchi",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 5,
+    "fields": {
+      "name": "Chimborazo",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 6,
+    "fields": {
+      "name": "Cotopaxi",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 7,
+    "fields": {
+      "name": "El Oro",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 8,
+    "fields": {
+      "name": "Esmeraldas",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 9,
+    "fields": {
+      "name": "Galápagos",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 10,
+    "fields": {
+      "name": "Guayas",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 11,
+    "fields": {
+      "name": "Imbabura",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 12,
+    "fields": {
+      "name": "Loja",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 13,
+    "fields": {
+      "name": "Los Ríos",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 14,
+    "fields": {
+      "name": "Manabí",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 15,
+    "fields": {
+      "name": "Morona Santiago",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 16,
+    "fields": {
+      "name": "Napo",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 17,
+    "fields": {
+      "name": "Orellana",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 18,
+    "fields": {
+      "name": "Pastaza",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 19,
+    "fields": {
+      "name": "Pichincha",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 20,
+    "fields": {
+      "name": "Santa Elena",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 21,
+    "fields": {
+      "name": "Santo Domingo de los Tsáchilas",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 22,
+    "fields": {
+      "name": "Sucumbíos",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 23,
+    "fields": {
+      "name": "Tungurahua",
+      "is_active": true,
+      "country": 1
+    }
+  },
+  {
+    "model": "core.province",
+    "pk": 24,
+    "fields": {
+      "name": "Zamora Chinchipe",
+      "is_active": true,
+      "country": 1
+    }
+  }
+]
