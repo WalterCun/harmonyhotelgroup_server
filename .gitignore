@@ -30,6 +30,6 @@ apps/helpers
 # de projectos
 /uv.lock
 /hhg.db
-/.env
+/.venv
 
 apps/core/fixtures/superuser.json
