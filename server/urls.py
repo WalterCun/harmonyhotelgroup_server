@@ -26,7 +26,7 @@ url_admin = [
 ]
 
 url_apps = [
-    path("__debug__/", include("debug_toolbar.urls")),
+    path("api/", include("apps.api.urls")),
     re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
     re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
 ]
@@ -40,3 +40,6 @@ url_swagger = [
 urlpatterns = url_admin + url_apps + url_swagger
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+if settings.DEBUG:
+    urlpatterns += [path("__debug__/", include("debug_toolbar.urls"))]
