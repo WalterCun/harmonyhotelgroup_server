@@ -5,7 +5,7 @@ from django.core.exceptions import ValidationError
 from django.db.models import Model, DateTimeField, BooleanField, URLField, CharField, ForeignKey, CASCADE, TextField, \
     FileField
 
-from apps.api.stores.unique_file_store import UniqueFileStorage
+from apps.api.stores.unique_file_store import unique_storage
 
 
 def validate_image_or_svg(file):
@@ -35,7 +35,7 @@ def social_network_upload_path(instance, filename):
         return f"social_networks/{file_hash}.{ext}"
 
 
-unique_storage = UniqueFileStorage()  # Instancia de nuestro almacenamiento personalizado
+
 
 
 class SocialPlatform(Model):
