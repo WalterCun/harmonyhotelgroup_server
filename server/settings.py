@@ -32,13 +32,19 @@ DEBUG = str2bool(os.environ.get('DEBUG', True))
 
 # Hosts Settings
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'http://localhost:5085', 'http://127.0.0.1:8000',
-                        'http://127.0.0.1:5085', 'https://rocket-django.onrender.com']
+
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000',
+                        'http://localhost:3001'
+                        ]
+
+CORS_ALLOWED_ORIGINS = CSRF_TRUSTED_ORIGINS
 
 # Used by DEBUG-Toolbar
 INTERNAL_IPS = [
     "127.0.0.1",
+    'localhost'
 ]
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
 BASE_APPS = ['django.contrib.admin',
@@ -50,7 +56,7 @@ BASE_APPS = ['django.contrib.admin',
 
 THIRD_APPS = ['drf_spectacular',
               'rest_framework',
-              'django_seed'
+              'corsheaders',
               ]
 
 DEV_APPS = ["debug_toolbar"]
@@ -67,6 +73,7 @@ if DEBUG:
     INSTALLED_APPS += DEV_APPS
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",  # Cors
     'django.contrib.sessions.middleware.SessionMiddleware',
