@@ -1,0 +1,170 @@
+[
+{
+    "model": "api.socialplatform",
+    "pk": 1,
+    "fields": {
+        "name": "Facebook Fan page",
+        "description": "Una Facebook Fan page es una página pública en Facebook creada para representar marcas, empresas, figuras públicas o comunidades. Permite interactuar con seguidores, compartir contenido, promocionar productos o servicios y acceder a herramientas de análisis y publicidad para mejorar el alcance y engagement.",
+        "is_active": true,
+        "logo": "social_networks/5ac8066682e47123f41ff7639145c7e7.svg",
+        "created_at": "2025-02-25T18:19:46.580Z",
+        "updated_at": "2025-02-26T00:44:04.732Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 2,
+    "fields": {
+        "name": "Facebook",
+        "description": "Facebook es una red social creada por Mark Zuckerberg en 2004 que permite a los usuarios conectarse, compartir contenido y comunicarse con amigos, familiares y comunidades. Ofrece funciones como publicaciones, grupos, páginas, eventos y marketplace, además de herramientas de publicidad y análisis para empresas y creadores de contenido.",
+        "is_active": true,
+        "logo": "social_networks/5ac8066682e47123f41ff7639145c7e7.svg",
+        "created_at": "2025-02-25T18:20:08.599Z",
+        "updated_at": "2025-02-26T00:44:10.751Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 3,
+    "fields": {
+        "name": "Tiktok",
+        "description": "TikTok es una red social de videos cortos lanzada en 2016 por ByteDance. Permite a los usuarios crear, editar y compartir videos con efectos, filtros y música. Es popular por su algoritmo de recomendación, desafíos virales y tendencias, atrayendo a creadores de contenido, marcas y empresas para promocionar productos y generar engagement.",
+        "is_active": true,
+        "logo": "social_networks/96ecdfa070db2de75e16f22e92e26102.svg",
+        "created_at": "2025-02-25T18:20:30.279Z",
+        "updated_at": "2025-02-26T00:44:24.229Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 4,
+    "fields": {
+        "name": "Instagram",
+        "description": "Instagram es una red social lanzada en 2010, centrada en compartir fotos y videos. Ofrece funciones como Stories, Reels, IGTV y compras integradas, permitiendo a usuarios y marcas conectar con su audiencia a través de contenido visual y estrategias de marketing digital.",
+        "is_active": true,
+        "logo": "social_networks/c06f4e917187128efb2a7f5213226c33.svg",
+        "created_at": "2025-02-25T18:21:07.938Z",
+        "updated_at": "2025-02-26T00:44:34.462Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 5,
+    "fields": {
+        "name": "WhatsApp",
+        "description": "WhatsApp es una aplicación de mensajería instantánea creada en 2009 y adquirida por Meta en 2014. Permite enviar mensajes, realizar llamadas de voz y video, compartir archivos y crear grupos. También cuenta con WhatsApp Business para empresas que buscan comunicarse con clientes de manera efectiva.",
+        "is_active": true,
+        "logo": "social_networks/9c0ec2e16b32b70b4d87c183452879cf.svg",
+        "created_at": "2025-02-25T18:21:18.429Z",
+        "updated_at": "2025-02-26T00:44:42.473Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 6,
+    "fields": {
+        "name": "YouTube",
+        "description": "YouTube es una plataforma de videos lanzada en 2005, donde los usuarios pueden subir, ver y compartir contenido audiovisual. Es el sitio de videos más grande del mundo y ofrece opciones de monetización, transmisiones en vivo y herramientas para creadores y empresas.",
+        "is_active": true,
+        "logo": "social_networks/d1ffc3a0d258219b3513cd62472c18d7.svg",
+        "created_at": "2025-02-25T18:21:55.628Z",
+        "updated_at": "2025-02-26T00:16:36.086Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 7,
+    "fields": {
+        "name": "X",
+        "description": "X (anteriormente Twitter) es una red social de microblogging fundada en 2006 que permite compartir publicaciones cortas llamadas \"posts\" (antes \"tweets\"). Es popular para noticias, debates y tendencias, con funciones como espacios de audio y suscripciones para creadores.",
+        "is_active": false,
+        "logo": "social_networks/3882b24417cf1e4777ae4c47f1770481.svg",
+        "created_at": "2025-02-25T18:22:04.036Z",
+        "updated_at": "2025-02-26T00:16:23.183Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 8,
+    "fields": {
+        "name": "Pinterest",
+        "description": "Pinterest es una plataforma visual lanzada en 2010 que permite descubrir y guardar ideas en tableros mediante imágenes y videos. Se usa para inspiración en moda, diseño, recetas y proyectos creativos, siendo una herramienta clave para marketing y e-commerce.",
+        "is_active": false,
+        "logo": "",
+        "created_at": "2025-02-25T18:22:11.399Z",
+        "updated_at": "2025-02-25T21:16:23.045Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 10,
+    "fields": {
+        "name": "LinkedIn",
+        "description": "Red profesional lanzada en 2003, enfocada en networking, empleo y desarrollo empresarial.",
+        "is_active": true,
+        "logo": "social_networks/d83aa12847d09e15c16414acf8c14371.svg",
+        "created_at": "2025-02-25T18:22:44.268Z",
+        "updated_at": "2025-02-26T00:16:13.071Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 11,
+    "fields": {
+        "name": "Snapchat",
+        "description": "Plataforma de mensajería visual donde los mensajes y fotos desaparecen tras ser vistos. Popular entre jóvenes.",
+        "is_active": false,
+        "logo": "",
+        "created_at": "2025-02-25T18:22:49.561Z",
+        "updated_at": "2025-02-25T21:16:20.581Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 12,
+    "fields": {
+        "name": "Reddit",
+        "description": "Comunidad de foros donde los usuarios publican y votan contenido sobre diversos temas.",
+        "is_active": false,
+        "logo": "",
+        "created_at": "2025-02-25T18:22:56.852Z",
+        "updated_at": "2025-02-25T21:16:15.500Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 13,
+    "fields": {
+        "name": "Twitch",
+        "description": "Plataforma de streaming en vivo, principalmente de videojuegos y contenido interactivo.",
+        "is_active": false,
+        "logo": "",
+        "created_at": "2025-02-25T18:23:01.405Z",
+        "updated_at": "2025-02-25T21:16:12.872Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 14,
+    "fields": {
+        "name": "Discord",
+        "description": "Servicio de mensajería y voz popular en comunidades de gaming y proyectos colaborativos.",
+        "is_active": false,
+        "logo": "",
+        "created_at": "2025-02-25T18:23:38.149Z",
+        "updated_at": "2025-02-25T21:02:26.446Z"
+    }
+},
+{
+    "model": "api.socialplatform",
+    "pk": 15,
+    "fields": {
+        "name": "Telegram",
+        "description": "Aplicación de mensajería con enfoque en privacidad, grupos masivos y bots automatizados.",
+        "is_active": true,
+        "logo": "social_networks/ec2721133893fb08366195df49966e29.svg",
+        "created_at": "2025-02-25T21:02:17.542Z",
+        "updated_at": "2025-02-26T00:16:02.706Z"
+    }
+}
+]
