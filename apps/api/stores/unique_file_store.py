@@ -32,15 +32,15 @@ class UniqueFileStorage(FileSystemStorage):
         # Guarda el archivo con su hash como nombre
         return super().save(new_name, content, max_length=max_length)
 
-    # def delete(self, name):
-    #     """
-    #     Elimina el archivo solo si ya no es referenciado en la base de datos.
-    #     """
-    #     # Importación dentro del méto-do para evitar problemas de importación circular
-    #     from apps.api.models import SocialPlatform
-    #     print('delete: ', name)
-    #     if not SocialPlatform.objects.filter(logo=name).exists():
-    #         super().delete(name)  # Elimina solo si no hay referencias
+    def delete(self, name):
+        """
+        Elimina el archivo solo si ya no es referenciado en la base de datos.
+        """
+        # Importación dentro del méto-do para evitar problemas de importación circular
+        from apps.api.models import SocialPlatform
+        print('delete: ', name)
+        if not SocialPlatform.objects.filter(logo=name).exists():
+            super().delete(name)  # Elimina solo si no hay referencias
 
     @staticmethod
     def get_file_hash(file):
@@ -49,3 +49,6 @@ class UniqueFileStorage(FileSystemStorage):
         for chunk in file.chunks():
             hasher.update(chunk)
         return hasher.hexdigest()
+
+# Instancia de nuestro almacenamiento personalizado
+unique_storage = UniqueFileStorage()
