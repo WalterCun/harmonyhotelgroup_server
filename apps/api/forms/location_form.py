@@ -27,7 +27,6 @@ class HotelForm(forms.ModelForm):
     def save(self, commit=True):
         # Obtener la instancia previa (edición)
         instance = self.instance
-        print(self.cleaned_data["location"])
         # Verificar si se está cambiando la location
         if instance.pk:  # Registro existente
             previous_location = instance.location  # La location anterior
