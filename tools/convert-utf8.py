@@ -23,6 +23,7 @@ def convert_to_utf8(input_file, output_file=None):
 
 if __name__ == '__main__':
     # LLama a la función con las rutas del archivo original y el archivo de salida
-    convert_to_utf8(r"apps/api/fixtures/services.json")
-    convert_to_utf8(r"apps/api/fixtures/locations.json")
-    convert_to_utf8(r"apps/api/fixtures/hotels.json")
+    # convert_to_utf8(r"apps/api/fixtures/services.json")
+    # convert_to_utf8(r"apps/api/fixtures/locations.json")
+    # convert_to_utf8(r"apps/api/fixtures/hotels.json")
+    convert_to_utf8(r"D:\Coders\harmonyhotel_service\apps\api\fixtures\socialplatform.json")
