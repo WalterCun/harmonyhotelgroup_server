@@ -1,9 +1,11 @@
 import re
 
 from django.core.exceptions import ValidationError
-from django.db.models import Model, CharField, FloatField, DateTimeField, TextField, ForeignKey, SmallIntegerField, \
-    ManyToManyField, CASCADE, BooleanField
+from django.db.models import Model, CharField, FloatField, DateTimeField, TextField, ForeignKey, \
+    ManyToManyField, CASCADE, BooleanField, ImageField
 from django.utils.translation import gettext_lazy as _
+
+from apps.api.stores.unique_file_store import unique_storage
 
 
 def validate_house_number(value):
@@ -64,6 +66,8 @@ class Hotel(Model):
     stars = CharField(max_length=1, choices=[('1', '🌟'), ('2', '🌟🌟'), ('3', '🌟🌟🌟'), ('4', '🌟🌟🌟🌟'), ('5', '🌟🌟🌟🌟🌟')])
     description = TextField(null=True, blank=True,)
     services = ManyToManyField(Service, related_name="hotels")
+    cover_photo = ImageField(storage=unique_storage,upload_to="hotels/", null=True, blank=True, help_text='Foto de portada')  # Foto de portada
+    photos = ManyToManyField("HotelPhoto", related_name="hotels", blank=True, help_text='Fotos acompañados')  # Fotos adicionales
     is_active = BooleanField(default=True)
     created_at = DateTimeField(auto_now_add=True)
     updated_at = DateTimeField(auto_now=True)
@@ -74,3 +78,15 @@ class Hotel(Model):
     class Meta:
         verbose_name = _("Hotel")
         verbose_name_plural = _("Hotels")
+
+class HotelPhoto(Model):
+    photo = ImageField(upload_to="hotels/photos/",storage=unique_storage,null=True, blank=True)  # Campo para la imagen
+    description = CharField(max_length=255, null=True, blank=True)  # Descripción opcional de la foto
+    uploaded_at = DateTimeField(auto_now_add=True)  # Fecha de subida automática
+
+    def __str__(self):
+        return f"Photo: {self.photo.url}"
+
+    class Meta:
+        verbose_name = _("Hotel Photo")
+        verbose_name_plural = _("Hotel Photos")
