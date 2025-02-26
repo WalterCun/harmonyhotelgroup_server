@@ -1,5 +1,4 @@
 from rest_framework.exceptions import NotFound
-from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -38,5 +37,6 @@ class HotelListView(APIView):
             queryset = queryset.filter(city__icontains=ciudad)  # Coincidencia parcial en la ciudad
 
         # Serializamos los resultados y los devolvemos
-        serializer = self.serializer_class(queryset, many=True)  # Usamos serializer_class
+        serializer = self.serializer_class(queryset, many=True)
+
         return Response(serializer.data)

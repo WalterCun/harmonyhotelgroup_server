@@ -43,14 +43,14 @@ class LocationSerializer(ModelSerializer):
 
 class HotelSerializer(ModelSerializer):
     location = LocationSerializer()
-    # services = ServiceSerializer(many=True)
     services = SerializerMethodField()
 
     class Meta:
         model = Hotel
         exclude = ['created_at', 'updated_at']
 
-    def get_services(self, instance):
+    @staticmethod
+    def get_services(instance):
         """
         Filtrar informacion de servicios activos.
         """
